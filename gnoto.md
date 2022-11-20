@@ -273,6 +273,7 @@ the Antimicrobial treated group fed nonsterile food.
 #### These data are from tadpoles before metamorphosis.
 
 
+<img width="732" alt="Screen Shot 2022-11-20 at 3 52 02 PM" src="https://user-images.githubusercontent.com/118693385/202933349-a3e8b2e5-b3bb-4b2b-aa17-62d92da8f9bd.png">
 
 
 
@@ -319,7 +320,8 @@ We saw differences in all groups compared to AMX4.
     ##  $ SVL_mm          : num [1:93] 20.9 17.4 15.8 18.8 14.6 ...
     ##  $ Notes           : chr [1:93] NA NA NA NA ...
 
-![](gnoto_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+<img width="713" alt="Screen Shot 2022-11-20 at 3 52 27 PM" src="https://user-images.githubusercontent.com/118693385/202933368-31bfdb84-6a34-443b-9465-dc83f24fd170.png">
+
 
     ##                 Df   Sum Sq   Mean Sq F value   Pr(>F)    
     ## Treatment_group  4 0.004666 0.0011664   11.98 8.15e-08 ***
@@ -345,7 +347,6 @@ We saw differences in all groups compared to AMX4.
     ## Abx_4-Abx_2       0.0032782491 -0.005412851  0.011969350 0.8309560
     ## Abx_4-Abx_3      -0.0007494293 -0.009440530  0.007941671 0.9992505
 
-![](gnoto_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
 
 We saw differences in all groups compared to the nonsterile group. Now
 we saw no differences in antimicrobial groups compared to AMX4.
@@ -468,7 +469,7 @@ we saw no differences in antimicrobial groups compared to AMX4.
     ## Trtmnt_3:E_  0.348 -0.267 -0.266 -0.457 -0.265 -0.737  0.565  0.555       
     ## Trtmnt_4:E_  0.348 -0.267 -0.266 -0.265 -0.457 -0.737  0.565  0.555  0.543
 
-![](gnoto_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->![](gnoto_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
+<img width="778" alt="Screen Shot 2022-11-20 at 3 53 07 PM" src="https://user-images.githubusercontent.com/118693385/202933404-662f03f1-5313-4ab3-826d-8dda5253bbb8.png">
 
 We saw differences between all groups compared to nonsterile group, as
 well as a few significant interactions with treatment group over time,
@@ -477,7 +478,7 @@ below.)
 
 #### Change in body condition over exposure
 
-![](gnoto_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+<img width="735" alt="Screen Shot 2022-11-20 at 3 53 32 PM" src="https://user-images.githubusercontent.com/118693385/202933425-6530243a-fe50-434b-aedf-58c26951308a.png">
 
     ##                         Df   Sum Sq   Mean Sq F value Pr(>F)
     ## change1$Treatment_group  4 0.001802 0.0004505   1.867  0.137
@@ -501,8 +502,7 @@ below.)
     ## Nonsterile-Abx_3  0.0193456481 -0.003700897 0.04239219 0.1361897
     ## Nonsterile-Abx_4  0.0162683793 -0.006778166 0.03931492 0.2750780
 
-![](gnoto_files/figure-gfm/unnamed-chunk-11-2.png)<!-- --> No
-differences in change in body condition.
+No differences in change in body condition.
 
 \#Bd load for Experiment 2
 
@@ -514,7 +514,6 @@ differences in change in body condition.
     ##  $ Treatment    : chr [1:252] "Abx" "Abx" "Abx" "Abx" ...
     ##  $ Abx_Treatment: num [1:252] 4 4 1 1 1 1 1 1 1 1 ...
 
-![](gnoto_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
     ## Warning: package 'DHARMa' was built under R version 4.0.5
 
@@ -585,7 +584,7 @@ differences in change in body condition.
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-![](gnoto_files/figure-gfm/unnamed-chunk-12-2.png)<!-- -->![](gnoto_files/figure-gfm/unnamed-chunk-12-3.png)<!-- -->
+<img width="774" alt="Screen Shot 2022-11-20 at 3 54 06 PM" src="https://user-images.githubusercontent.com/118693385/202933459-2e6e2b49-c5e7-49cf-a8bc-6be1bbf08c8d.png">
 
 No differences among groups.
 
@@ -655,7 +654,7 @@ No differences among groups.
     ##    83    174      66   0.4015  0.0284       0.3495        0.461
     ##   150     87      66   0.0969  0.0197       0.0651        0.144
 
-![](gnoto_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+<img width="759" alt="Screen Shot 2022-11-20 at 3 54 45 PM" src="https://user-images.githubusercontent.com/118693385/202933481-21bcb5c5-83e2-4783-bfa4-8d8c93a1fb07.png">
 
     ## Call:
     ## survdiff(formula = Surv(surv_1$Day, surv_1$Survival) ~ surv_1$Treatment)
@@ -731,7 +730,8 @@ No differences among groups.
     ##    82    102      23    0.547  0.0383        0.477        0.627
     ##   150     51      23    0.300  0.0435        0.226        0.399
 
-![](gnoto_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+<img width="774" alt="Screen Shot 2022-11-20 at 3 55 25 PM" src="https://user-images.githubusercontent.com/118693385/202933513-5fab1f87-b96f-4b6a-9369-9df8bb968c6c.png">
+
 
     ## Call:
     ## survdiff(formula = Surv(surv_2$Experimental_day, surv_2$Survival) ~ 
