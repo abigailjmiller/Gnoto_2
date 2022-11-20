@@ -234,7 +234,9 @@ group.
     ##  $ SVL_mm          : num [1:92] 16.3 17.1 16.3 20.3 20.5 ...
     ##  $ Notes           : logi [1:92] NA NA NA NA NA NA ...
 
-![](gnoto_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+<img width="784" alt="Screen Shot 2022-11-20 at 3 51 17 PM" src="https://user-images.githubusercontent.com/118693385/202933310-920b068d-5bab-4546-9fa6-3fae32c387de.png">
+
+
 
     ##             Df   Sum Sq   Mean Sq F value Pr(>F)  
     ## Treatment    3 0.002033 0.0006776   2.724  0.049 *
@@ -270,7 +272,9 @@ the Antimicrobial treated group fed nonsterile food.
 
 #### These data are from tadpoles before metamorphosis.
 
-![](gnoto_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+
+
+
 
     ## 
     ##  Kruskal-Wallis rank sum test
